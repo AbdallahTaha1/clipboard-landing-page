@@ -1,0 +1,59 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: $grayishBlue;
+}
+
+h1,
+h2 {
+  color: hsl(210, 10%, 33%);
+}
+
+section {
+  padding: 0 30px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  min-width: 300px;
+  height: 50px;
+  margin: 20px;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  &.green {
+    background-color: $strongCyan;
+    box-shadow: 0 2px darken($strongCyan, 10%);
+  }
+  &.blue {
+    background-color: $lighBlue;
+    box-shadow: 0 2px darken($lighBlue, 10%);
+  }
+}
+
+button:active {
+  box-shadow: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $grayishBlue;
+}
+a:hover {
+  color: $strongCyan;
+}

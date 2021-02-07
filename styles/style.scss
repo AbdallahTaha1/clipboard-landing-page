@@ -1,0 +1,162 @@
+@import "variables";
+@import "globals";
+
+// First Section
+.section1 {
+  background-image: url("../images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  img {
+    margin-top: 130px;
+  }
+  p {
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
+// Second Section
+.section2 {
+  margin: 100px 0;
+  p {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+// Third Section
+.section3 {
+  .computer {
+    margin: 0 auto;
+    img {
+      max-width: 700px;
+      width: 100%;
+    }
+  }
+  .features div {
+    margin-bottom: 60px;
+  }
+  p {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
+// Fourth Section
+.section4 {
+  margin-top: 130px;
+  img {
+    max-width: 100%;
+    margin-top: 60px;
+  }
+  p {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+}
+
+// Fifth Section
+.section5 {
+  margin-top: 130px;
+  div {
+    margin-bottom: 60px;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  p {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .section5-div2 {
+    margin-top: 80px;
+  }
+}
+
+// Sixth section
+.section6 {
+  margin: 130px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    margin-bottom: 60px;
+  }
+}
+.section7 p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+//footer
+footer {
+  background-color: #f5f6f8;
+  color: $darkGrayishBlue;
+  margin-top: 150px;
+  text-align: center;
+  padding: 50px;
+  div {
+    margin: 50px 0 0 0;
+  }
+  li {
+    margin: 35px 0;
+  }
+  .social-media a:not(:last-child) {
+    margin-right: 20px;
+  }
+  svg:hover {
+    fill: $strongCyan;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  section1 {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section3 {
+    padding: 0;
+    text-align: left;
+    display: flex;
+    .computer {
+      margin: 0;
+      max-width: 50%;
+    }
+    .features {
+      margin: 0 auto;
+    }
+  }
+
+  .section5-div2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .section6 {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 500px;
+      text-align: left;
+    }
+    li {
+      width: 130px;
+      margin: 10px 0;
+    }
+    div {
+      margin: 0;
+    }
+  }
+}

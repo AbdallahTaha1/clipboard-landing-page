@@ -1,0 +1,260 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #9fabb2;
+}
+
+h1,
+h2 {
+  color: #4c545d;
+}
+
+section {
+  padding: 0 30px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  min-width: 300px;
+  height: 50px;
+  margin: 20px;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+}
+
+button.green {
+  background-color: #26baa4;
+  -webkit-box-shadow: 0 2px #1d907f;
+          box-shadow: 0 2px #1d907f;
+}
+
+button.blue {
+  background-color: #6173ff;
+  -webkit-box-shadow: 0 2px #2e46ff;
+          box-shadow: 0 2px #2e46ff;
+}
+
+button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #9fabb2;
+}
+
+a:hover {
+  color: #26baa4;
+}
+
+.section1 {
+  background-image: url("../images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section1 img {
+  margin-top: 130px;
+}
+
+.section1 p {
+  max-width: 650px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.section2 {
+  margin: 100px 0;
+}
+
+.section2 p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.section3 .computer {
+  margin: 0 auto;
+}
+
+.section3 .computer img {
+  max-width: 700px;
+  width: 100%;
+}
+
+.section3 .features div {
+  margin-bottom: 60px;
+}
+
+.section3 p {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.section4 {
+  margin-top: 130px;
+}
+
+.section4 img {
+  max-width: 100%;
+  margin-top: 60px;
+}
+
+.section4 p {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.section5 {
+  margin-top: 130px;
+}
+
+.section5 div {
+  margin-bottom: 60px;
+}
+
+.section5 img {
+  display: block;
+  margin: 0 auto;
+}
+
+.section5 p {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.section5 .section5-div2 {
+  margin-top: 80px;
+}
+
+.section6 {
+  margin: 130px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section6 img {
+  margin-bottom: 60px;
+}
+
+.section7 p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #f5f6f8;
+  color: #4c545d;
+  margin-top: 150px;
+  text-align: center;
+  padding: 50px;
+}
+
+footer div {
+  margin: 50px 0 0 0;
+}
+
+footer li {
+  margin: 35px 0;
+}
+
+footer .social-media a:not(:last-child) {
+  margin-right: 20px;
+}
+
+footer svg:hover {
+  fill: #26baa4;
+}
+
+@media screen and (min-width: 800px) {
+  section1 {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section3 {
+    padding: 0;
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section3 .computer {
+    margin: 0;
+    max-width: 50%;
+  }
+  .section3 .features {
+    margin: 0 auto;
+  }
+  .section5-div2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .section6 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 40px 0;
+  }
+  footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 500px;
+    text-align: left;
+  }
+  footer li {
+    width: 130px;
+    margin: 10px 0;
+  }
+  footer div {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
